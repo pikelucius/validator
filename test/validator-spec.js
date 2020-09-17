@@ -1,7 +1,6 @@
 var assert = require("assert");
 const validator = require("../lib/validator");
 
-validator = require('../lib/validator');
 
 describe("A Validator", function () {
   it("will return error.nonpositive for not strictly positive numbers", function () {
